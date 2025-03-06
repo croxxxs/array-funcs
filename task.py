@@ -45,4 +45,4 @@ def test_funcs():
     print(f'filter greater results: {filter_less(arr,value)}')
 
 
-print(f'proves about true result of my work: {test_funcs}') 
+print(f'proves about true result of my work: {test_funcs()}') 
