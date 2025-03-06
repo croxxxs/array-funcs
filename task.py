@@ -43,3 +43,6 @@ def test_funcs():
     print(f'filter not equal results: {filter_not_equal(arr,value)}')
     print(f'filter greater results: {filter_greater(arr,value)}')
     print(f'filter greater results: {filter_less(arr,value)}')
+
+
+print(f'proves about true result of my work: {test_funcs}') 
