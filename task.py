@@ -45,4 +45,25 @@ def test_funcs():
     print(f'filter greater results: {filter_less(arr,value)}')
 
 
-print(f'proves about true result of my work: {test_funcs()}') 
+print(f'proves about true result of my work: {test_funcs()}')
+
+
+matrix = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9],
+]
+
+def mtr_lefttrsumm(matrix):
+    summ_triangle = 0
+
+    for row in range(len(matrix)):
+        for i in range(len(row)):
+            if row == 0 and i == 1 or row == 0 and i == 2 or row == 1 and i == 2:
+                summ_triangle.append(matrix[i],[i])
+    for i in matrix:
+        summ_triangle += i
+    print(summ_triangle)
+    return summ_triangle
+
+print(mtr_lefttrsumm(matrix))
