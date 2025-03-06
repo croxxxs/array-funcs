@@ -1,6 +1,8 @@
+value = int(input('enter value > '))
+
 def filter_less(arr,value):
     new_arr = []
-    value = int(input('enter value > '))
+    
     for i in arr:
         if i < value:
             new_arr.append(i)
@@ -9,7 +11,7 @@ def filter_less(arr,value):
 
 def filter_greater(arr,value):
     new_arr = []
-    value = int(input('enter value > '))
+    
     for i in arr:
         if i > value:
             new_arr.append(i)
@@ -18,7 +20,7 @@ def filter_greater(arr,value):
 
 def filter_equal(arr,value):
     new_arr = []
-    value = int(input('enter value > '))
+    
     for i in arr:
         if i == value:
             new_arr.append(i)
@@ -27,7 +29,7 @@ def filter_equal(arr,value):
 
 def filter_not_equal(arr,value):
     new_arr = []
-    value = int(input('enter value > '))
+    
     for i in arr:
         if i != value:
             new_arr.append(i)
